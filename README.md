@@ -13,9 +13,6 @@
 오류 발생.. 하지만 폰에서는 문제 없이 작동함. 
 
 # pubspec.yaml 
-dependencies:
-  flutter:
-    sdk: flutter
   firebase_core: ^1.8.0
   firebase_auth: ^3.3.17
   google_sign_in: ^5.3.0  #220506 최신버전 
