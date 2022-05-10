@@ -1,0 +1,432 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.madmillgames.fluttersnslogin2205"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/madmillgames/Flutter_Project/MyProject/fluttersnslogin2205/android/app/src/main/AndroidManifest.xml:4:4-66
+14-->/Users/madmillgames/Flutter_Project/MyProject/fluttersnslogin2205/android/app/src/main/AndroidManifest.xml:4:21-63
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:flutter_naver_login] /Users/madmillgames/Flutter_Project/MyProject/fluttersnslogin2205/build/flutter_naver_login/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+15-->[:flutter_naver_login] /Users/madmillgames/Flutter_Project/MyProject/fluttersnslogin2205/build/flutter_naver_login/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+16
+17    <queries>
+17-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:13:5-23:15
+18
+19        <!-- 네이버앱 : 로그인, 스킴로그인 -->
+20        <package android:name="com.nhn.android.search" />
+20-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:16:9-58
+20-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:16:18-55
+21        <!-- 커스텀탭 로그인 -->
+22        <intent>
+22-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:18:9-20:18
+23            <action android:name="android.support.customtabs.action.CustomTabsService" />
+23-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:19:13-90
+23-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:19:21-87
+24        </intent>
+25
+26        <package android:name="com.android.chrome" />
+26-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:22:9-54
+26-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:22:18-51
+27        <package android:name="com.kakao.talk" />
+27-->[com.kakao.sdk:v2-common:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/d4823dec0bf1626bca5cb5c324ddae39/transformed/jetified-v2-common-2.7.0/AndroidManifest.xml:12:9-50
+27-->[com.kakao.sdk:v2-common:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/d4823dec0bf1626bca5cb5c324ddae39/transformed/jetified-v2-common-2.7.0/AndroidManifest.xml:12:18-47
+28        <package android:name="com.kakao.talk.alpha" />
+28-->[com.kakao.sdk:v2-common:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/d4823dec0bf1626bca5cb5c324ddae39/transformed/jetified-v2-common-2.7.0/AndroidManifest.xml:13:9-56
+28-->[com.kakao.sdk:v2-common:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/d4823dec0bf1626bca5cb5c324ddae39/transformed/jetified-v2-common-2.7.0/AndroidManifest.xml:13:18-53
+29        <package android:name="com.kakao.talk.sandbox" />
+29-->[com.kakao.sdk:v2-common:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/d4823dec0bf1626bca5cb5c324ddae39/transformed/jetified-v2-common-2.7.0/AndroidManifest.xml:14:9-58
+29-->[com.kakao.sdk:v2-common:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/d4823dec0bf1626bca5cb5c324ddae39/transformed/jetified-v2-common-2.7.0/AndroidManifest.xml:14:18-55
+30        <package android:name="com.kakao.onetalk" />
+30-->[com.kakao.sdk:v2-common:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/d4823dec0bf1626bca5cb5c324ddae39/transformed/jetified-v2-common-2.7.0/AndroidManifest.xml:15:9-53
+30-->[com.kakao.sdk:v2-common:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/d4823dec0bf1626bca5cb5c324ddae39/transformed/jetified-v2-common-2.7.0/AndroidManifest.xml:15:18-50
+31        <package android:name="com.chrome.beta" />
+31-->[com.kakao.sdk:v2-common:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/d4823dec0bf1626bca5cb5c324ddae39/transformed/jetified-v2-common-2.7.0/AndroidManifest.xml:17:9-51
+31-->[com.kakao.sdk:v2-common:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/d4823dec0bf1626bca5cb5c324ddae39/transformed/jetified-v2-common-2.7.0/AndroidManifest.xml:17:18-48
+32        <package android:name="com.chrome.dev" />
+32-->[com.kakao.sdk:v2-common:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/d4823dec0bf1626bca5cb5c324ddae39/transformed/jetified-v2-common-2.7.0/AndroidManifest.xml:18:9-50
+32-->[com.kakao.sdk:v2-common:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/d4823dec0bf1626bca5cb5c324ddae39/transformed/jetified-v2-common-2.7.0/AndroidManifest.xml:18:18-47
+33    </queries>
+34
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/50582f0221e1a45bebcde1897e07ea5d/transformed/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:24:5-68
+35-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/50582f0221e1a45bebcde1897e07ea5d/transformed/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:24:22-65
+36    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+36-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/50582f0221e1a45bebcde1897e07ea5d/transformed/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:25:5-79
+36-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/50582f0221e1a45bebcde1897e07ea5d/transformed/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:25:22-76
+37    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+37-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:26:5-110
+37-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:26:22-107
+38
+39    <application
+40        android:name="android.app.Application"
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.6.0] /Users/madmillgames/.gradle/caches/transforms-3/66d650fa35ef845510c97bb2c5249977/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+42        android:debuggable="true"
+43        android:icon="@mipmap/ic_launcher"
+44        android:label="fluttersnslogin2205" >
+45
+46        <!-- 네이버 로그인 처리 strt -->
+47        <meta-data
+48            android:name="com.naver.sdk.clientId"
+49            android:value="@string/client_id" />
+50        <meta-data
+51            android:name="com.naver.sdk.clientSecret"
+52            android:value="@string/client_secret" />
+53        <meta-data
+54            android:name="com.naver.sdk.clientName"
+55            android:value="@string/client_name" />
+56        <!-- 네이버 로그인 처리 End -->
+57        <activity
+58            android:name="com.madmillgames.fluttersnslogin2205.MainActivity"
+59            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+60            android:exported="true"
+61            android:hardwareAccelerated="true"
+62            android:launchMode="singleTop"
+63            android:theme="@style/LaunchTheme"
+64            android:windowSoftInputMode="adjustResize" >
+65
+66            <!--
+67                 Specifies an Android theme to apply to this Activity as soon as
+68                 the Android process has started. This theme is visible to the user
+69                 while the Flutter UI initializes. After that, this theme continues
+70                 to determine the Window background behind the Flutter UI.
+71            -->
+72            <meta-data
+73                android:name="io.flutter.embedding.android.NormalTheme"
+74                android:resource="@style/NormalTheme" />
+75
+76            <intent-filter>
+77                <action android:name="android.intent.action.MAIN" />
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+80            </intent-filter>
+81        </activity>
+82
+83        <!-- 2. Setup Kakao -->
+84        <activity
+85            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+86            android:launchMode="singleTask"
+86-->[com.kakao.sdk:v2-auth:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/828addd1e2ce991d7d20d64badeef1b6/transformed/jetified-v2-auth-2.7.0/AndroidManifest.xml:19:13-44
+87            android:theme="@style/TransparentCompat" >
+87-->[com.kakao.sdk:v2-auth:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/828addd1e2ce991d7d20d64badeef1b6/transformed/jetified-v2-auth-2.7.0/AndroidManifest.xml:20:13-53
+88            <intent-filter>
+89                <action android:name="android.intent.action.VIEW" />
+89-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:50:17-69
+89-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:50:25-66
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:52:17-76
+91-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:52:27-73
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:53:17-78
+92-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:53:27-75
+93
+94                <!-- Redirect URI: "kakao{NATIVE_APP_KEY}://oauth“ -->
+95                <data
+95-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:55:17-58:59
+96                    android:host="oauth"
+96-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:56:21-45
+97                    android:scheme="kakao6d7ed146b3a06bb691e6f5977d5086c4" />
+97-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:58:21-56
+98                <!-- ex) android:scheme="kakao0123456789abcdefghijklmn" /> -->
+99
+100            </intent-filter>
+101        </activity>
+102
+103        <!--
+104             Don't delete the meta-data below.
+105             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+106        -->
+107        <meta-data
+108            android:name="flutterEmbedding"
+109            android:value="2" />
+110
+111        <service
+111-->[:firebase_auth] /Users/madmillgames/Flutter_Project/MyProject/fluttersnslogin2205/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+112            android:name="com.google.firebase.components.ComponentDiscoveryService"
+112-->[:firebase_auth] /Users/madmillgames/Flutter_Project/MyProject/fluttersnslogin2205/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+113            android:directBootAware="true"
+113-->[com.google.firebase:firebase-common:20.1.0] /Users/madmillgames/.gradle/caches/transforms-3/9aa722ae80f54bf8f83598f574af6373/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+114            android:exported="false" >
+114-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:66:13-37
+115            <meta-data
+115-->[:firebase_auth] /Users/madmillgames/Flutter_Project/MyProject/fluttersnslogin2205/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+116                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+116-->[:firebase_auth] /Users/madmillgames/Flutter_Project/MyProject/fluttersnslogin2205/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[:firebase_auth] /Users/madmillgames/Flutter_Project/MyProject/fluttersnslogin2205/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+118            <meta-data
+118-->[:firebase_core] /Users/madmillgames/Flutter_Project/MyProject/fluttersnslogin2205/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+119                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+119-->[:firebase_core] /Users/madmillgames/Flutter_Project/MyProject/fluttersnslogin2205/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[:firebase_core] /Users/madmillgames/Flutter_Project/MyProject/fluttersnslogin2205/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
+122                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+122-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
+124            <meta-data
+124-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/50582f0221e1a45bebcde1897e07ea5d/transformed/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:31:13-33:85
+125                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+125-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/50582f0221e1a45bebcde1897e07ea5d/transformed/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:32:17-139
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/50582f0221e1a45bebcde1897e07ea5d/transformed/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:33:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-installations:17.0.1] /Users/madmillgames/.gradle/caches/transforms-3/09b73b6f0e8ebd028c490383a53f7fc7/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+128                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+128-->[com.google.firebase:firebase-installations:17.0.1] /Users/madmillgames/.gradle/caches/transforms-3/09b73b6f0e8ebd028c490383a53f7fc7/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-installations:17.0.1] /Users/madmillgames/.gradle/caches/transforms-3/09b73b6f0e8ebd028c490383a53f7fc7/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+130        </service> <!-- <activity -->
+131        <!-- android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity" -->
+132        <!-- android:configChanges="orientation|screenSize" -->
+133        <!-- android:theme="@style/Theme.AppCompat.Light.Dialog" /> -->
+134        <activity
+134-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:32:9-35:78
+135            android:name="com.navercorp.nid.oauth.NidOAuthBridgeActivity"
+135-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:33:13-74
+136            android:configChanges="orientation|screenSize"
+136-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:34:13-59
+137            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
+137-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:35:13-75
+138        <activity
+138-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:36:9-40:50
+139            android:name="com.navercorp.nid.oauth.activity.NidOAuthWebViewActivity"
+139-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:37:13-84
+140            android:configChanges="orientation|screenSize"
+140-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:38:13-59
+141            android:label="OAuth2.0 by WebView"
+141-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:39:13-48
+142            android:screenOrientation="behind" />
+142-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:40:13-47
+143        <activity
+143-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:41:9-60:20
+144            android:name="com.navercorp.nid.oauth.activity.NidOAuthCustomTabActivity"
+144-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:42:13-86
+145            android:configChanges="orientation|screenSize"
+145-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:43:13-59
+146            android:exported="true"
+146-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:44:13-36
+147            android:label="OAuth2.0 by Custom tabs"
+147-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:45:13-52
+148            android:launchMode="singleTask"
+148-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:46:13-44
+149            android:screenOrientation="behind"
+149-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:47:13-47
+150            android:theme="@style/Theme.AppCompat.NoActionBar" >
+150-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:48:13-63
+151            <intent-filter>
+151-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:49:13-59:29
+152                <action android:name="android.intent.action.VIEW" />
+152-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:50:17-69
+152-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:50:25-66
+153
+154                <category android:name="android.intent.category.DEFAULT" />
+154-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:52:17-76
+154-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:52:27-73
+155                <category android:name="android.intent.category.BROWSABLE" />
+155-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:53:17-78
+155-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:53:27-75
+156                <!-- Intent URL 에서 로그인 액티비티를 실행하기 위해 설정 -->
+157                <data
+157-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:55:17-58:59
+158                    android:host="authorize"
+158-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:56:21-45
+159                    android:path="/"
+159-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:57:21-37
+160                    android:scheme="naver3rdpartylogin" />
+160-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:58:21-56
+161            </intent-filter>
+162        </activity>
+163
+164        <uses-library
+164-->[androidx.window:window:1.0.0-beta04] /Users/madmillgames/.gradle/caches/transforms-3/4bb0fee63d5cfa797058c0041bf7e879/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+165            android:name="androidx.window.extensions"
+165-->[androidx.window:window:1.0.0-beta04] /Users/madmillgames/.gradle/caches/transforms-3/4bb0fee63d5cfa797058c0041bf7e879/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+166            android:required="false" />
+166-->[androidx.window:window:1.0.0-beta04] /Users/madmillgames/.gradle/caches/transforms-3/4bb0fee63d5cfa797058c0041bf7e879/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+167        <uses-library
+167-->[androidx.window:window:1.0.0-beta04] /Users/madmillgames/.gradle/caches/transforms-3/4bb0fee63d5cfa797058c0041bf7e879/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+168            android:name="androidx.window.sidecar"
+168-->[androidx.window:window:1.0.0-beta04] /Users/madmillgames/.gradle/caches/transforms-3/4bb0fee63d5cfa797058c0041bf7e879/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+169            android:required="false" />
+169-->[androidx.window:window:1.0.0-beta04] /Users/madmillgames/.gradle/caches/transforms-3/4bb0fee63d5cfa797058c0041bf7e879/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+170
+171        <activity
+171-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
+172            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+172-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
+173            android:excludeFromRecents="true"
+173-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
+174            android:exported="true"
+174-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
+175            android:launchMode="singleTask"
+175-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
+176            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+176-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
+177            <intent-filter>
+177-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
+178                <action android:name="android.intent.action.VIEW" />
+178-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:50:17-69
+178-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:50:25-66
+179
+180                <category android:name="android.intent.category.DEFAULT" />
+180-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:52:17-76
+180-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:52:27-73
+181                <category android:name="android.intent.category.BROWSABLE" />
+181-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:53:17-78
+181-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:53:27-75
+182
+183                <data
+183-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:55:17-58:59
+184                    android:host="firebase.auth"
+184-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:56:21-45
+185                    android:path="/"
+185-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:57:21-37
+186                    android:scheme="genericidp" />
+186-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:58:21-56
+187            </intent-filter>
+188        </activity>
+189        <activity
+189-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
+190            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+190-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
+191            android:excludeFromRecents="true"
+191-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
+192            android:exported="true"
+192-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
+193            android:launchMode="singleTask"
+193-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
+194            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+194-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
+195            <intent-filter>
+195-->[com.google.firebase:firebase-auth:21.0.3] /Users/madmillgames/.gradle/caches/transforms-3/15da9adb5d4bcc4d972de2dbe07efe41/transformed/jetified-firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
+196                <action android:name="android.intent.action.VIEW" />
+196-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:50:17-69
+196-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:50:25-66
+197
+198                <category android:name="android.intent.category.DEFAULT" />
+198-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:52:17-76
+198-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:52:27-73
+199                <category android:name="android.intent.category.BROWSABLE" />
+199-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:53:17-78
+199-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:53:27-75
+200
+201                <data
+201-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:55:17-58:59
+202                    android:host="firebase.auth"
+202-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:56:21-45
+203                    android:path="/"
+203-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:57:21-37
+204                    android:scheme="recaptcha" />
+204-->[com.navercorp.nid:oauth-jdk8:5.0.1] /Users/madmillgames/.gradle/caches/transforms-3/0dfa7cdfc5394b2d7a3d048fc675e575/transformed/jetified-oauth-jdk8-5.0.1/AndroidManifest.xml:58:21-56
+205            </intent-filter>
+206        </activity>
+207
+208        <provider
+208-->[com.google.firebase:firebase-common:20.1.0] /Users/madmillgames/.gradle/caches/transforms-3/9aa722ae80f54bf8f83598f574af6373/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+209            android:name="com.google.firebase.provider.FirebaseInitProvider"
+209-->[com.google.firebase:firebase-common:20.1.0] /Users/madmillgames/.gradle/caches/transforms-3/9aa722ae80f54bf8f83598f574af6373/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+210            android:authorities="com.madmillgames.fluttersnslogin2205.firebaseinitprovider"
+210-->[com.google.firebase:firebase-common:20.1.0] /Users/madmillgames/.gradle/caches/transforms-3/9aa722ae80f54bf8f83598f574af6373/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+211            android:directBootAware="true"
+211-->[com.google.firebase:firebase-common:20.1.0] /Users/madmillgames/.gradle/caches/transforms-3/9aa722ae80f54bf8f83598f574af6373/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+212            android:exported="false"
+212-->[com.google.firebase:firebase-common:20.1.0] /Users/madmillgames/.gradle/caches/transforms-3/9aa722ae80f54bf8f83598f574af6373/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+213            android:initOrder="100" />
+213-->[com.google.firebase:firebase-common:20.1.0] /Users/madmillgames/.gradle/caches/transforms-3/9aa722ae80f54bf8f83598f574af6373/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+214
+215        <activity
+215-->[com.google.android.gms:play-services-auth:20.0.1] /Users/madmillgames/.gradle/caches/transforms-3/406301a69b2392982851565317203425/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
+216            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+216-->[com.google.android.gms:play-services-auth:20.0.1] /Users/madmillgames/.gradle/caches/transforms-3/406301a69b2392982851565317203425/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
+217            android:excludeFromRecents="true"
+217-->[com.google.android.gms:play-services-auth:20.0.1] /Users/madmillgames/.gradle/caches/transforms-3/406301a69b2392982851565317203425/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
+218            android:exported="false"
+218-->[com.google.android.gms:play-services-auth:20.0.1] /Users/madmillgames/.gradle/caches/transforms-3/406301a69b2392982851565317203425/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
+219            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+219-->[com.google.android.gms:play-services-auth:20.0.1] /Users/madmillgames/.gradle/caches/transforms-3/406301a69b2392982851565317203425/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
+220        <!--
+221            Service handling Google Sign-In user revocation. For apps that do not integrate with
+222            Google Sign-In, this service will never be started.
+223        -->
+224        <service
+224-->[com.google.android.gms:play-services-auth:20.0.1] /Users/madmillgames/.gradle/caches/transforms-3/406301a69b2392982851565317203425/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
+225            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+225-->[com.google.android.gms:play-services-auth:20.0.1] /Users/madmillgames/.gradle/caches/transforms-3/406301a69b2392982851565317203425/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
+226            android:exported="true"
+226-->[com.google.android.gms:play-services-auth:20.0.1] /Users/madmillgames/.gradle/caches/transforms-3/406301a69b2392982851565317203425/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
+227            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+227-->[com.google.android.gms:play-services-auth:20.0.1] /Users/madmillgames/.gradle/caches/transforms-3/406301a69b2392982851565317203425/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
+228            android:visibleToInstantApps="true" />
+228-->[com.google.android.gms:play-services-auth:20.0.1] /Users/madmillgames/.gradle/caches/transforms-3/406301a69b2392982851565317203425/transformed/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
+229
+230        <receiver
+230-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:29:9-33:20
+231            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+231-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:30:13-85
+232            android:enabled="true"
+232-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:31:13-35
+233            android:exported="false" >
+233-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:32:13-37
+234        </receiver>
+235
+236        <service
+236-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:35:9-38:40
+237            android:name="com.google.android.gms.measurement.AppMeasurementService"
+237-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:36:13-84
+238            android:enabled="true"
+238-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:37:13-35
+239            android:exported="false" />
+239-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:38:13-37
+240        <service
+240-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:39:9-43:72
+241            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+241-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:40:13-87
+242            android:enabled="true"
+242-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:41:13-35
+243            android:exported="false"
+243-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:42:13-37
+244            android:permission="android.permission.BIND_JOB_SERVICE" />
+244-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/madmillgames/.gradle/caches/transforms-3/c14e75a3abdac78ee748eccb1140084b/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:43:13-69
+245
+246        <activity
+246-->[com.google.android.gms:play-services-base:18.0.1] /Users/madmillgames/.gradle/caches/transforms-3/725889157186e5b18bb1e62a0da06cc5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+247            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+247-->[com.google.android.gms:play-services-base:18.0.1] /Users/madmillgames/.gradle/caches/transforms-3/725889157186e5b18bb1e62a0da06cc5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+248            android:exported="false"
+248-->[com.google.android.gms:play-services-base:18.0.1] /Users/madmillgames/.gradle/caches/transforms-3/725889157186e5b18bb1e62a0da06cc5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+249            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+249-->[com.google.android.gms:play-services-base:18.0.1] /Users/madmillgames/.gradle/caches/transforms-3/725889157186e5b18bb1e62a0da06cc5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+250
+251        <meta-data
+251-->[com.google.android.gms:play-services-basement:18.0.0] /Users/madmillgames/.gradle/caches/transforms-3/8844b408057ff2fbc264139e0e7efb18/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+252            android:name="com.google.android.gms.version"
+252-->[com.google.android.gms:play-services-basement:18.0.0] /Users/madmillgames/.gradle/caches/transforms-3/8844b408057ff2fbc264139e0e7efb18/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+253            android:value="@integer/google_play_services_version" />
+253-->[com.google.android.gms:play-services-basement:18.0.0] /Users/madmillgames/.gradle/caches/transforms-3/8844b408057ff2fbc264139e0e7efb18/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+254
+255        <activity
+255-->[com.kakao.sdk:v2-auth:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/828addd1e2ce991d7d20d64badeef1b6/transformed/jetified-v2-auth-2.7.0/AndroidManifest.xml:12:9-16:56
+256            android:name="com.kakao.sdk.auth.TalkAuthCodeActivity"
+256-->[com.kakao.sdk:v2-auth:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/828addd1e2ce991d7d20d64badeef1b6/transformed/jetified-v2-auth-2.7.0/AndroidManifest.xml:13:13-67
+257            android:exported="false"
+257-->[com.kakao.sdk:v2-auth:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/828addd1e2ce991d7d20d64badeef1b6/transformed/jetified-v2-auth-2.7.0/AndroidManifest.xml:14:13-37
+258            android:launchMode="singleTask"
+258-->[com.kakao.sdk:v2-auth:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/828addd1e2ce991d7d20d64badeef1b6/transformed/jetified-v2-auth-2.7.0/AndroidManifest.xml:15:13-44
+259            android:theme="@style/TransparentCompat" />
+259-->[com.kakao.sdk:v2-auth:2.7.0] /Users/madmillgames/.gradle/caches/transforms-3/828addd1e2ce991d7d20d64badeef1b6/transformed/jetified-v2-auth-2.7.0/AndroidManifest.xml:16:13-53
+260    </application>
+261
+262</manifest>

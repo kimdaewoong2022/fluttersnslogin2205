@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.yoonjaepark.flutter_naver_login-merged_res-17:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/madmillgames/.gradle/caches/transforms-3/f2f3a034ea6c96811ceb9f743e23089c/transformed/appcompat-1.0.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.yoonjaepark.flutter_naver_login-mergeReleaseResources-15:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/madmillgames/.gradle/caches/transforms-3/f2f3a034ea6c96811ceb9f743e23089c/transformed/appcompat-1.0.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

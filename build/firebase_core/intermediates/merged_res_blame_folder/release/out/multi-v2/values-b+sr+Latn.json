@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "io.flutter.plugins.firebase.core.firebase_core-merged_res-11:/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "map": [
+                {
+                    "source": "/Users/madmillgames/.gradle/caches/transforms-3/66d650fa35ef845510c97bb2c5249977/transformed/core-1.6.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "185",
+                        "endColumns": "100",
+                        "endOffsets": "281"
+                    }
+                },
+                {
+                    "source": "/Users/madmillgames/.gradle/caches/transforms-3/8844b408057ff2fbc264139e0e7efb18/transformed/jetified-play-services-basement-18.0.0/res/values-b+sr+Latn/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "125",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "129",
+                        "endOffsets": "180"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-9:/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "map": [
+                {
+                    "source": "/Users/madmillgames/.gradle/caches/transforms-3/66d650fa35ef845510c97bb2c5249977/transformed/core-1.6.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "185",
+                        "endColumns": "100",
+                        "endOffsets": "281"
+                    }
+                },
+                {
+                    "source": "/Users/madmillgames/.gradle/caches/transforms-3/8844b408057ff2fbc264139e0e7efb18/transformed/jetified-play-services-basement-18.0.0/res/values-b+sr+Latn/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "125",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "129",
+                        "endOffsets": "180"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.yoonjaepark.flutter_naver_login-merged_res-17:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/madmillgames/.gradle/caches/transforms-3/f2f3a034ea6c96811ceb9f743e23089c/transformed/appcompat-1.0.0/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.yoonjaepark.flutter_naver_login-mergeReleaseResources-15:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/madmillgames/.gradle/caches/transforms-3/f2f3a034ea6c96811ceb9f743e23089c/transformed/appcompat-1.0.0/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

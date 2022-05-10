@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.yoonjaepark.flutter_naver_login-merged_res-17:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "com.yoonjaepark.flutter_naver_login-appcompat-1.0.0-10:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "com.yoonjaepark.flutter_naver_login-merged_res-17:/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "com.yoonjaepark.flutter_naver_login-appcompat-1.0.0-10:/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]

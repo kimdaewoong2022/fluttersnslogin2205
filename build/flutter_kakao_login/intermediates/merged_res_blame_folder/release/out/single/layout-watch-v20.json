@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.josephnk.flutter_kakao_login-merged_res-17:/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "com.josephnk.flutter_kakao_login-appcompat-1.1.0-6:/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "com.josephnk.flutter_kakao_login-merged_res-17:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "com.josephnk.flutter_kakao_login-appcompat-1.1.0-6:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    }
+]

@@ -1,0 +1,2 @@
+com/josephnk/flutter_kakao_login/BuildConfig.java
+ com.josephnk.flutter_kakao_login.BuildConfig

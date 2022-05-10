@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.yoonjaepark.flutter_naver_login-mergeReleaseResources-15:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/madmillgames/.gradle/caches/transforms-3/66d650fa35ef845510c97bb2c5249977/transformed/core-1.6.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/madmillgames/.gradle/caches/transforms-3/f2f3a034ea6c96811ceb9f743e23089c/transformed/appcompat-1.0.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.yoonjaepark.flutter_naver_login-merged_res-17:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/madmillgames/.gradle/caches/transforms-3/66d650fa35ef845510c97bb2c5249977/transformed/core-1.6.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/madmillgames/.gradle/caches/transforms-3/f2f3a034ea6c96811ceb9f743e23089c/transformed/appcompat-1.0.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

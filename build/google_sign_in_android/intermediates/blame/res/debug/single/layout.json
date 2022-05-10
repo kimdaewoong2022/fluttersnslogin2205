@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/madmillgames/FlutterProject/FlutterSamples/fluttersnslogin2205/build/google_sign_in_android/intermediates/res/merged/debug/layout/custom_dialog.xml",
+        "source": "/Users/madmillgames/.gradle/caches/transforms-2/files-2.1/d491bd0f040841c2b82258518d8d556a/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/madmillgames/FlutterProject/FlutterSamples/fluttersnslogin2205/build/google_sign_in_android/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/madmillgames/.gradle/caches/transforms-2/files-2.1/d491bd0f040841c2b82258518d8d556a/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/madmillgames/FlutterProject/FlutterSamples/fluttersnslogin2205/build/google_sign_in_android/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/madmillgames/.gradle/caches/transforms-2/files-2.1/d491bd0f040841c2b82258518d8d556a/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/madmillgames/FlutterProject/FlutterSamples/fluttersnslogin2205/build/google_sign_in_android/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/madmillgames/.gradle/caches/transforms-2/files-2.1/d491bd0f040841c2b82258518d8d556a/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/madmillgames/FlutterProject/FlutterSamples/fluttersnslogin2205/build/google_sign_in_android/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/madmillgames/.gradle/caches/transforms-2/files-2.1/d491bd0f040841c2b82258518d8d556a/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/madmillgames/FlutterProject/FlutterSamples/fluttersnslogin2205/build/google_sign_in_android/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/madmillgames/.gradle/caches/transforms-2/files-2.1/d491bd0f040841c2b82258518d8d556a/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    }
+]

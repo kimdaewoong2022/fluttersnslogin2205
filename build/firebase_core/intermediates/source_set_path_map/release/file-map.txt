@@ -1,0 +1,13 @@
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-0 /Users/madmillgames/.gradle/caches/transforms-3/4bb0fee63d5cfa797058c0041bf7e879/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-1 /Users/madmillgames/.gradle/caches/transforms-3/66d650fa35ef845510c97bb2c5249977/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.0.0-2 /Users/madmillgames/.gradle/caches/transforms-3/8844b408057ff2fbc264139e0e7efb18/transformed/jetified-play-services-basement-18.0.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-3 /Users/madmillgames/.gradle/caches/transforms-3/e83527858323ada1253b45fad7b0f9b4/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-4 /Users/madmillgames/.gradle/caches/transforms-3/e88fa5e18905bef7c59c35e355849126/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-main-5 /Users/madmillgames/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.16.0/android/src/main/res
+io.flutter.plugins.firebase.core.firebase_core-release-6 /Users/madmillgames/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.16.0/android/src/release/res
+io.flutter.plugins.firebase.core.firebase_core-pngs-7 /Users/madmillgames/Flutter_Project/samples/fluttersnslogin2205/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-8 /Users/madmillgames/Flutter_Project/samples/fluttersnslogin2205/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-rs-9 /Users/madmillgames/Flutter_Project/samples/fluttersnslogin2205/build/firebase_core/generated/res/rs/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-10 /Users/madmillgames/Flutter_Project/samples/fluttersnslogin2205/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-11 /Users/madmillgames/Flutter_Project/samples/fluttersnslogin2205/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-12 /Users/madmillgames/Flutter_Project/samples/fluttersnslogin2205/build/firebase_core/intermediates/merged_res/release

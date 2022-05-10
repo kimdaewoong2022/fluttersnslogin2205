@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":flutter_kakao_login:androidTest" external.linked.project.path="$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/flutter_kakao_login-3.4.0/android" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../../build/flutter_kakao_login/tmp/kotlin-classes/debugAndroidTest" />
+          <option name="classpath" value="$MODULE_DIR$/../../../../build/flutter_kakao_login/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/madmillgames/.gradle/caches/transforms-3/af4320386e0a6b5d1c521384a537e14a/transformed/jetified-flutter_embedding_debug-1.0.0-57d3bac3dd5cb5b0e464ab70e7bc8a0d8cf083ab.jar:/Users/madmillgames/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.2.0/cd3478503da69b1a7e0319bd2d1389943db9b364/lifecycle-common-java8-2.2.0.jar:/Users/madmillgames/.gradle/caches/transforms-3/4516f7d0eb41f9557139761961200b6e/transformed/jetified-v2-user-2.7.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/2f6f2e345768f75b2d57d68e7185052b/transformed/jetified-v2-auth-2.7.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/c36c2b3b5f706781dcb0e1534a109cec/transformed/appcompat-1.1.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/331636908ef9e373c1c800efb415a30b/transformed/fragment-1.1.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/a78bcbb1385a2c671fe8c409b8562e5f/transformed/jetified-v2-network-2.7.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/6a68308e1e81f6ca7e4b996dbf3774da/transformed/jetified-v2-common-2.7.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/23c9827caa7a984babd5e408b05c6d4d/transformed/browser-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/3d6f58f9ccb0361142517aa76659d309/transformed/legacy-support-core-ui-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/d33dd38d180def1f24f782d918f3750c/transformed/viewpager-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/c5ee6db837a20097e2bfc0a37c4fce8d/transformed/legacy-support-core-utils-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/39895c922369d872441e3b7106d5f682/transformed/loader-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/349b63502d3c9bdc88baf484bead8a80/transformed/jetified-activity-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/904fe7be7b797b1aeca827dcb7809668/transformed/drawerlayout-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/e9f2899d7aca687e67c59146b401a53a/transformed/coordinatorlayout-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/591061c2a94bfc1e1a4968a3ebf9f3f4/transformed/slidingpanelayout-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/feb0fbebdd61aa08bad2bcb03dbbc6dd/transformed/customview-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/489f5f48925445ceeb9fec752c80dca1/transformed/jetified-appcompat-resources-1.1.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/fca5976afb86dd31b35317a4fcdd4bc0/transformed/vectordrawable-animated-1.1.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/6fec123e7e56c6bb3793ee36a3ec853b/transformed/vectordrawable-1.1.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/02cf37af4becd8e78286ee6bb42c9b68/transformed/swiperefreshlayout-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/70044e26acfc2d279bef5967f319fc5e/transformed/asynclayoutinflater-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/7ddbf93f6eb5b4e51c0ef22434985fec/transformed/core-1.6.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/540eb17a9a7d66a7cec087ae69569ee4/transformed/lifecycle-runtime-2.2.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/b847777d9014c4909551b6cbae440019/transformed/jetified-savedstate-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/f40083cd8309373e5271d5be9a9277df/transformed/lifecycle-livedata-2.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/401f7df5e97a9c1e5c9d840db911e882/transformed/lifecycle-livedata-core-2.0.0-api.jar:/Users/madmillgames/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/4ef09a745007778eef83b92f8f23987a8ea59496/lifecycle-common-2.2.0.jar:/Users/madmillgames/.gradle/caches/transforms-3/1246419e017ff3968d1b637d1fdebb77/transformed/core-runtime-2.0.0-api.jar:/Users/madmillgames/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/madmillgames/.gradle/caches/transforms-3/719ceb80026f925e85c97f3047e3c8ba/transformed/versionedparcelable-1.1.1-api.jar:/Users/madmillgames/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/madmillgames/.gradle/caches/transforms-3/188be78c1a97acf189fc582006b5e49c/transformed/lifecycle-viewmodel-2.1.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/e35cf6dccd73a4cf43be8a119b39f56c/transformed/cursoradapter-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/a089d53f2cfc5f602fa14107d5793d40/transformed/interpolator-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/14f4de558a2b52e9b9bd6a5a6a9e2b08/transformed/documentfile-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/db61db7eb9f9c2927170860725c2d40f/transformed/localbroadcastmanager-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/6f05bd11adfad794b8fd0a1ddadecc3c/transformed/print-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar:/Users/madmillgames/.gradle/caches/transforms-3/2afff53672e966d4d6053656223339b8/transformed/jetified-annotation-experimental-1.1.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/13748b613af1411b5ea16fbc75888ee4/transformed/jetified-tracing-1.0.0-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/ff791701fdef1f68bb045f9ab336ccf5/transformed/jetified-window-java-1.0.0-beta04-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/85da03ca256df29e0d922340994c4253/transformed/jetified-window-1.0.0-beta04-api.jar:/Users/madmillgames/.gradle/caches/transforms-3/9b21693f0712a3b05776707912d0622d/transformed/jetified-kotlinx-coroutines-android-1.5.2.jar:/Users/madmillgames/.gradle/caches/transforms-3/54d466711c68a87b40a3681b557b1a19/transformed/jetified-kotlinx-coroutines-core-jvm-1.5.2.jar:/Users/madmillgames/.gradle/caches/transforms-3/30ec52b91c129ab7805e63446ca48e96/transformed/jetified-kotlin-stdlib-jdk8-1.5.30.jar:/Users/madmillgames/.gradle/caches/transforms-3/1a91f6a804bf2d1c7be44e6b4f2c1b99/transformed/jetified-kotlin-stdlib-jdk7-1.5.30.jar:/Users/madmillgames/.gradle/caches/transforms-3/9066bfccbe8bd301d1046bb4074ab6ef/transformed/jetified-kotlin-android-extensions-runtime-1.3.50.jar:/Users/madmillgames/.gradle/caches/transforms-3/5e89a81cb7d38ca43e7efba5627b5796/transformed/jetified-kotlin-stdlib-1.5.31.jar:/Users/madmillgames/.gradle/caches/transforms-3/d4e759788255c013dc22f062c10536ec/transformed/jetified-annotations-13.0.jar:/Users/madmillgames/.gradle/caches/transforms-3/dbe18a2ff1441dc873f94114c2798eb1/transformed/jetified-kotlin-stdlib-common-1.5.31.jar:/Users/madmillgames/.gradle/caches/transforms-3/e163133af124d46d7bf2c413799d1efa/transformed/jetified-converter-gson-2.6.2.jar:/Users/madmillgames/.gradle/caches/transforms-3/a4fd3fa323ef429dd8acad89a83a62d6/transformed/jetified-gson-2.8.6.jar:/Users/madmillgames/.gradle/caches/transforms-3/cf0850ada7865d435fafb154a7ca69d4/transformed/jetified-retrofit-2.6.2.jar:/Users/madmillgames/.gradle/caches/transforms-3/e8888718147ca8a00e966209c49249c3/transformed/jetified-logging-interceptor-3.12.5.jar:/Users/madmillgames/.gradle/caches/transforms-3/1175b0570fb2388f97e1b7c37eaf49c7/transformed/jetified-okhttp-3.12.5.jar:/Users/madmillgames/.gradle/caches/transforms-3/b9f5f6504bcc0b36162fcaa126112a1f/transformed/jetified-okio-1.15.0.jar:/Users/madmillgames/.gradle/caches/transforms-3/8489cd5acbc2ad7fbe9d80b4f4b92dc7/transformed/constraintlayout-1.1.3-api.jar:/Users/madmillgames/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar:/Users/madmillgames/Library/Android/sdk/platforms/android-28/android.jar:/Users/madmillgames/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="moduleName" value="flutter_kakao_login_debug" />
+          <option name="friendPaths">
+            <array>
+              <option value="$MODULE_DIR$/../../../../build/flutter_kakao_login/tmp/kotlin-classes/debug" />
+              <option value="$MODULE_DIR$/../../../../build/flutter_kakao_login/intermediates/javac/debug/classes" />
+              <option value="$MODULE_DIR$/../../../../build/flutter_kakao_login/intermediates/compile_library_classes_jar/debug/classes.jar" />
+            </array>
+          </option>
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/flutter_kakao_login-3.4.0/android/src/main/res;file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/flutter_kakao_login-3.4.0/android/src/debug/res;file://$MODULE_DIR$/../../../../build/flutter_kakao_login/generated/res/rs/debug;file://$MODULE_DIR$/../../../../build/flutter_kakao_login/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/flutter_kakao_login-3.4.0/android/src/androidTest/res;file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/flutter_kakao_login-3.4.0/android/src/androidTestDebug/res;file://$MODULE_DIR$/../../../../build/flutter_kakao_login/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../../build/flutter_kakao_login/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/flutter_kakao_login-3.4.0/android/src/androidTest" />
+    <content url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/flutter_kakao_login-3.4.0/android/src/androidTestDebug" />
+    <content url="file://$MODULE_DIR$/../../../../build/flutter_kakao_login/generated/aidl_source_output_dir/debugAndroidTest/out" />
+    <content url="file://$MODULE_DIR$/../../../../build/flutter_kakao_login/generated/ap_generated_sources/debugAndroidTest/out" />
+    <content url="file://$MODULE_DIR$/../../../../build/flutter_kakao_login/generated/renderscript_source_output_dir/debugAndroidTest/out" />
+    <content url="file://$MODULE_DIR$/../../../../build/flutter_kakao_login/generated/res/resValues/androidTest/debug" />
+    <content url="file://$MODULE_DIR$/../../../../build/flutter_kakao_login/generated/res/rs/androidTest/debug" />
+    <content url="file://$MODULE_DIR$/../../../../build/flutter_kakao_login/generated/source/buildConfig/androidTest/debug" />
+    <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="android.flutter_kakao_login.main" scope="TEST" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.flutter:flutter_embedding_debug:1.0.0-57d3bac3dd5cb5b0e464ab70e7bc8a0d8cf083ab" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-common:2.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-common-java8:2.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.31" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.30" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.30" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.gson:gson:2.8.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.50" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:okhttp:3.12.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okio:okio:1.15.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:retrofit:2.6.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:converter-gson:2.6.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:logging-interceptor:3.12.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout-solver:1.1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.fragment:fragment:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core:1.6.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation-experimental:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.activity:activity:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.savedstate:savedstate:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.tracing:tracing:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.window:window-java:1.0.0-beta04@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.window:window:1.0.0-beta04@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.kakao.sdk:v2-user:2.7.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.kakao.sdk:v2-auth:2.7.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.kakao.sdk:v2-common:2.7.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.browser:browser:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.kakao.sdk:v2-network:2.7.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout:1.1.3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.appcompat:appcompat:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.appcompat:appcompat-resources:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="android.flutter_kakao_login.main" />
+</module>

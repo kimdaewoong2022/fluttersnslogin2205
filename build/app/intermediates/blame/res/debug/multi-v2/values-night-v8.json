@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/madmillgames/FlutterProject/FlutterSamples/fluttersnslogin2205/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/madmillgames/FlutterProject/FlutterSamples/fluttersnslogin2205/android/app/src/main/res/values-night/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "172,806",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "464,970"
+                    },
+                    "to": {
+                        "startLines": "4,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "179,476",
+                        "endLines": "8,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "471,640"
+                    }
+                },
+                {
+                    "source": "/Users/madmillgames/.gradle/caches/transforms-2/files-2.1/0ec79acd6195f34d79958162ab556cbc/appcompat-1.1.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "645,715,799,883,979,1081,1183,1277",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "710,794,878,974,1076,1178,1272,1361"
+                    }
+                },
+                {
+                    "source": "/Users/madmillgames/.gradle/caches/transforms-2/files-2.1/c0f113cf121f0e6a44139548df79ad9f/jetified-oauth-jdk8-5.0.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,120",
+                        "endColumns": "64,58",
+                        "endOffsets": "115,174"
+                    }
+                }
+            ]
+        }
+    ]
+}

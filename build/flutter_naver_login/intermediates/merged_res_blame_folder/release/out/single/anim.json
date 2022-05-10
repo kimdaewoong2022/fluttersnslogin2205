@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.yoonjaepark.flutter_naver_login-merged_res-17:/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "com.yoonjaepark.flutter_naver_login-appcompat-1.0.0-10:/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "com.yoonjaepark.flutter_naver_login-merged_res-17:/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "com.yoonjaepark.flutter_naver_login-appcompat-1.0.0-10:/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "com.yoonjaepark.flutter_naver_login-merged_res-17:/anim/abc_slide_in_top.xml",
+        "source": "com.yoonjaepark.flutter_naver_login-appcompat-1.0.0-10:/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "com.yoonjaepark.flutter_naver_login-merged_res-17:/anim/abc_tooltip_exit.xml",
+        "source": "com.yoonjaepark.flutter_naver_login-appcompat-1.0.0-10:/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "com.yoonjaepark.flutter_naver_login-merged_res-17:/anim/abc_tooltip_enter.xml",
+        "source": "com.yoonjaepark.flutter_naver_login-appcompat-1.0.0-10:/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "com.yoonjaepark.flutter_naver_login-merged_res-17:/anim/abc_slide_in_bottom.xml",
+        "source": "com.yoonjaepark.flutter_naver_login-appcompat-1.0.0-10:/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "com.yoonjaepark.flutter_naver_login-merged_res-17:/anim/abc_fade_in.xml",
+        "source": "com.yoonjaepark.flutter_naver_login-appcompat-1.0.0-10:/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "com.yoonjaepark.flutter_naver_login-merged_res-17:/anim/abc_slide_out_top.xml",
+        "source": "com.yoonjaepark.flutter_naver_login-appcompat-1.0.0-10:/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "com.yoonjaepark.flutter_naver_login-merged_res-17:/anim/abc_slide_out_bottom.xml",
+        "source": "com.yoonjaepark.flutter_naver_login-appcompat-1.0.0-10:/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "com.yoonjaepark.flutter_naver_login-merged_res-17:/anim/abc_fade_out.xml",
+        "source": "com.yoonjaepark.flutter_naver_login-appcompat-1.0.0-10:/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "com.yoonjaepark.flutter_naver_login-merged_res-17:/anim/abc_popup_exit.xml",
+        "source": "com.yoonjaepark.flutter_naver_login-appcompat-1.0.0-10:/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "com.yoonjaepark.flutter_naver_login-merged_res-17:/anim/abc_popup_enter.xml",
+        "source": "com.yoonjaepark.flutter_naver_login-appcompat-1.0.0-10:/anim/abc_popup_enter.xml"
+    }
+]

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "609207852362",
+    "project_id": "fluttersnslogin2205",
+    "storage_bucket": "fluttersnslogin2205.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609207852362:android:4f27397d69a578b883b5b3",
+        "android_client_info": {
+          "package_name": "com.madmillgames.fluttersnslogin2205"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609207852362-ih5ur59c2qmjgivirop0rqtfp21q2cv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.madmillgames.fluttersnslogin2205",
+            "certificate_hash": "045de212022fef95916e71607b1ada430a0e806b"
+          }
+        },
+        {
+          "client_id": "609207852362-asltajo2cvko38251gsb67vb2rh8o9aj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBULjP9jUZ-NeGEHqVZJCu2bhtKXbTuqGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609207852362-asltajo2cvko38251gsb67vb2rh8o9aj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "609207852362-ngj7n9qdjmuvacke2ksnqp9d2foigd7u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.madmillgames.fluttersnslogin2205"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
