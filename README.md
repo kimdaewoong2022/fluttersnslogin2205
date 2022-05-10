@@ -1,2 +1,28 @@
 # fluttersnslogin2205
 서버리스 플로터 SNS로그인 (2022년 05월 초기 소스 생성)
+
+플로터 SNS Login Sample
+
+구글 : 파이어베이스 사용
+카카오로그인, 네이버로그인 인증서버 없이 구현 
+
+오류??
+# Android 에뮬레이터로 네이버로그인시 
+ E/AndroidRuntime( 4533): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.madmillgames.fluttersnslogin2205/com.navercorp.nid.oauth.activity.NidOAuthWebViewActivity}: java.lang.IllegalStateException: You need to use a Theme.AppCompat theme (or descendant) with this activity.
+
+오류 발생.. 하지만 폰에서는 문제 없이 작동함. 
+
+# pubspec.yaml 
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^1.8.0
+  firebase_auth: ^3.3.17
+  google_sign_in: ^5.3.0  #220506 최신버전 
+  #cloud_firestore: ^2.5.4
+  
+  flutter_kakao_login: ^3.3.0  
+  #flutter_naver_login: ^1.4.0
+  
+  flutter_naver_login: ^1.3.1
+
