@@ -10,7 +10,7 @@
 # Android 에뮬레이터로 네이버로그인시 
  E/AndroidRuntime( 4533): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.madmillgames.fluttersnslogin2205/com.navercorp.nid.oauth.activity.NidOAuthWebViewActivity}: java.lang.IllegalStateException: You need to use a Theme.AppCompat theme (or descendant) with this activity.
 
-안드로이드 에뮬레이터에서 네이버 로그인시점에 연결안되느 문제가 있음 
+안드로이드 에뮬레이터에서 네이버 연결안되는 문제가 있음 
 릴리즈 버전(폰에서는)는 문제 없이 작동함. 
 
 # pubspec.yaml 
